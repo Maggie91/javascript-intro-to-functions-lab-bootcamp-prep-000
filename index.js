@@ -16,7 +16,24 @@ function logWhisper(string) {
   console.log(string.toLowerCase())
 }
 
-/*this doesn't work, but I want to move on */
+
+function sayHiToGrandma(string) {
+
+  if (console.log("hello") === console.log(string))
+     /*{console.log(`${louder}`)} */
+     return "I can\'t hear you!"} 
+    
+  else if (console.log("HELLO") === console.log(string))
+      /*{console.log(`${totally}`)}*/   
+      return "YES INDEED!"} 
+      
+  else if (console.log("I love you, grandma.") === console.log(string))
+      {console.log(`${love}`)}  
+    
+}
+
+
+/*this doesn't work, but I want to move on 
 function sayHiToGrandma(string) {
 
 var louder  = "I can\'t hear you!"
@@ -25,13 +42,14 @@ var love    = "I love you, too!"
 
   if (console.log("hello") === console.log(string))
      {console.log(`${louder}`)} 
-     /*return "I can\'t hear you!"} */
+     /*return "I can\'t hear you!"} 
     
   else if (console.log("HELLO") === console.log(string))
       {console.log(`${totally}`)}   
-      /*return "YES INDEED!"} */
+      /*return "YES INDEED!"} 
       
   else if (console.log("I love you, grandma.") === console.log(string))
       {console.log(`${love}`)}  
+    
 }
       /*return "I love you, too."} */
